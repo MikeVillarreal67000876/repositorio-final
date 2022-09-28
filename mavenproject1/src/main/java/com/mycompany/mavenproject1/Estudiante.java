@@ -11,7 +11,7 @@ package com.mycompany.mavenproject1;
 public class Estudiante extends Usuario {
 private int codigo;
 private String correoinstitucional;
-
+private String correoinstitucional1CAMBIO1;
     public Estudiante(int codigo, String correoinstitucional, String email, String nombres, String apellido, int CC) {
         super(email, nombres, apellido, CC);
         this.codigo = codigo;
