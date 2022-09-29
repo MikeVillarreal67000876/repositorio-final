@@ -14,10 +14,7 @@ public abstract class AvesTruz extends ave  {
 public void makesound(){
 System.out.println("<<Silencio>>");
 }
-@Override
-public void vuela(){
-System.out.println("no vuela");
-}
+
 
 
 }

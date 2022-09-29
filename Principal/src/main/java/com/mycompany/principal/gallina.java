@@ -4,16 +4,12 @@
  */
 package com.mycompany.principal;
 
-/**
- *
- * @author mikev_6wadxan
- */
-public abstract class gallina extends ave  {
+import com.cibancode.patterdesign.lab3.interfaces.volar;
+public abstract class gallina extends ave implements volar {
  
     public void makesound(){
     System.out.println("Grasna");
     }
-    @Override
     public void vuela(){
     
     System.out.println("vuela con alas ");

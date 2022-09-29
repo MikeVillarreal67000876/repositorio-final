@@ -4,11 +4,8 @@
  */
 package com.mycompany.principal;
 
-/**
- *
- * @author mikev_6wadxan
- */
-public abstract class Canario extends ave {
+import com.cibancode.patterndesign.lab3.interfaces.volar;
+public abstract class Canario extends ave implements volar {
     
     @Override
     
